@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Air Pollution</title>
+    <script src="lib/jquery-3.6.0.min.js"></script>
+    <script src="lib/jquery-ui.js"></script>
+    <script src="lib/chroma.min.js"></script>
+    <script src="lib/gmynd.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.css">
+
+    <div id="slider"></div>
+</head>
+
+<body class="flex">
+    <div id="renderer" class="parent"></div>
+    <div id="outdoor" class="parent">
+        <p class="text-above">Outdoor</p>
+    </div>
+    <div id="indoor" class="parent">
+        <p class="text-above2">Indoor</p>
+    </div>
+    <div id="ellipsesContainer"></div>
+
+    <div class="bottom-line"></div>
+    <div class="left-line"></div>
+    <div class="text-label">GDP per Capita</div>
+    <div class="text-label-vertical">Deaths/100 000</div>
+    <div class="headline">Deaths from <br> Air Pollution</div>
+    <div class="table-headline"></div>
+    <p id ="table-text" class="table-text"></p>
+
+    <div id="info-box" class="info-box">  
+        <p id="info-1" class="info-text"></p>
+        <div class="info-box-row">
+            <div class="info-box-row-left">Population</div>
+            <div id="info-2" class="info-box-row-right"></div>
+        </div>
+        <div class="info-box-row">
+            <div class="info-box-row-left">GDP/Capita</div>
+            <div id="info-3" class="info-box-row-right"></div>
+        </div>
+        <div class="info-box-row">
+            <div class="info-box-row-left">Deaths/100 000</div>
+            <div id="info-4" class="info-box-row-right"></div>
+        </div>
+        <div class="info-box-row">
+            <div class="info-box-row-left">Indoor</div>
+            <div id="info-5" class="info-box-row-right"></div>
+        </div> 
+        <div class="info-box-row">
+            <div class="info-box-row-left">Outdoor</div>
+            <div id="info-6" class="info-box-row-right"></div>
+        </div>
+    </div>
+
+
+    <script src="data/data.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
