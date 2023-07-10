@@ -172,7 +172,7 @@ function draw() {
 
     renderer.append(circle);
   }
-  $(".circle[data-year!='1990']").hide();
+  $(".circle[data-year!='2005']").hide();
 }
 
 function fillHoverModal(country) {
